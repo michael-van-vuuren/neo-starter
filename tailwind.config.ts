@@ -25,7 +25,7 @@ const config: Config = {
   
         // dark mode
         darkBg: '#1F283B',
-        darkText: '#eeefe9',
+        darkText: '#fff',
         darkBorder: '#000',
         secondaryBlack: '#212121', // opposite of plain white, not used pitch black because borders and box-shadows are that color 
       },

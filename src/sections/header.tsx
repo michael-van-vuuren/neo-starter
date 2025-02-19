@@ -1,4 +1,5 @@
 import { Button } from '@/components/ui/button'
+import Link from 'next/link'
 
 export default function Header() {
   return (
@@ -10,12 +11,11 @@ export default function Header() {
         <p className="text-white my-12 mt-8 text-lg font-normal leading-relaxed md:text-xl lg:text-2xl lg:leading-relaxed">
           Welcome!
         </p>
-        <Button
-          size="lg"
-          className="h-12 text-base font-heading md:text-lg lg:h-14 lg:text-xl"
-        >
-          Begin
-        </Button>
+        <Link href="/subpage1" passHref>
+          <Button size="lg" className="h-12 text-base font-heading md:text-lg lg:h-14 lg:text-xl">
+            Begin
+          </Button>
+        </Link>
       </div>
     </header>
   )
