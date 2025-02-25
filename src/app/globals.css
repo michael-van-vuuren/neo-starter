@@ -39,12 +39,23 @@ body::-webkit-scrollbar-thumb {
     background-image: linear-gradient(to right, #80808033 1px, transparent 1px),
                       linear-gradient(to bottom, #80808033 1px, transparent 1px);
     background-size: 70px 70px;
+    background-position: 0px 50px;
+    z-index: -1;
   }
 
   .grid-bg-dark {
     background-image: linear-gradient(to right, #d2d2d238 1px, transparent 1px),
                       linear-gradient(to bottom, #d2d2d238 1px, transparent 1px);
     background-size: 70px 70px;
+    background-position: 0px 50px;
+    z-index: -1;
+  }
+
+  .grid-bg-dot {
+    background-image: radial-gradient(circle, #000000 1.5px, rgba(0, 0, 0, 0) 1px);
+    background-size: 70px 70px;
+    background-position: 0px -10px;
+    z-index: -1;
   }
   
   .grainy-texture {
